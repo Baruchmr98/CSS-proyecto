@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de calidad</title>
+    <link rel="stylesheet" href="../styles/stylePrueba.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="seccion seccion-izquierda">
+        <div class="container">
+            <h1>
+                Create your account
+            </h1>
+            <div class="botones">
+                <button type="submit" class="botones-google-apple">
+                    <img src="../assets/Google.png" alt="Logo de Google">
+                    Use Google
+                </button> 
+                <button type="submit" class="botones-google-apple">
+                    <img src="../assets/Applepng.png" alt="Logo de Apple">
+                    Use Apple
+                </button> 
+            </div>
+            <p>
+                Or
+            </p>
+            <div>
+                <form action="/procesar" method="post" class="formulario">             
+                    <label for="usuario" class="inputs">
+                        Email: 
+                        <br>
+                        <input type="email" id="correo" name="correo" placeholder="Your email" required>
+                    </label>
+                    
+                    <br>
+                    
+                    <label for="usuario" class="inputs">
+                        Password:
+                        <br>
+                        <input type="password" id="contraseña" name="contraseña" placeholder="Your password" required>
+                    </label>
+                    
+                    <br>
+                    <br>
+
+                    <button type="submit" id="login">
+                        Login
+                    </button> 
+                </form>
+            </div>
+            <div id="cuenta">
+                <h4>
+                    Already have an account?
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div class="seccion seccion-derecha">
+        <div id="persona">
+            <img src="../assets/Trabajanding.png" alt="Persona en computadora" id="trabajanding">
+        </div>
+    </div>
+</body>
+</html>
